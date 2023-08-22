@@ -1,0 +1,20 @@
+{
+  "name": "prac-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch",
+    "server": "json-server --watch db.json --port3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0",
+    "json-server": "^0.17.3",
+    "swiper": "^9.0.5"
+  }
+}
